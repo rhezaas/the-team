@@ -1,0 +1,8 @@
+Django==5.0.6
+Pillow==10.4.0
+python-dateutil==2.9.0.post0
+gunicorn==22.0.0
+mixer==7.2.2
+pytest==8.2.2
+pytest-cov==4.0.0
+pytest-django==4.5.2

@@ -1,0 +1,21 @@
+services:
+  django_backend:
+    build:
+      context: ./django-backend/dummyproject
+    working_dir: /usr/src/app/dummyproject
+    hostname: django-backend
+    container_name: django_backend
+    ports:
+      - "8000:8000"
+    stdin_open: true
+    tty: true
+
+  remix_frontend:
+    build:
+      context: ./remix-frontend
+    hostname: remix-frontend
+    container_name: remix_frontend
+    ports:
+      - 3000:3000
+    stdin_open: true
+    tty: true
