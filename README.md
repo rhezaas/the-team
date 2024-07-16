@@ -16,7 +16,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-        git clone https://github.com/your_username/your_project.git
+        git clone https://github.com/rhezaas/the-team.git
     ```
 
 2. Navigate into the directory
